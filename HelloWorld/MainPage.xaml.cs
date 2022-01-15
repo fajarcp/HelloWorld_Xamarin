@@ -19,6 +19,7 @@ namespace HelloWorld
         {
             string username = nameEntry.Text;
             string greeting = "Hello" + username;
+            greetingLabel.Text = greeting;
         }
     }
 }
