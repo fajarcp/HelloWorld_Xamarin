@@ -14,5 +14,11 @@ namespace HelloWorld
         {
             InitializeComponent();
         }
+
+        private void Button_Clicked(object sender, EventArgs e)
+        {
+            string username = nameEntry.Text;
+            string greeting = "Hello" + username;
+        }
     }
 }

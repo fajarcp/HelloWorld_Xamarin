@@ -4,7 +4,9 @@
              x:Class="HelloWorld.MainPage">
 
     <StackLayout>
-        
+        <Label x:Name="greetingLabel" Text="Hello Xamarin World"/>
+        <Entry Placeholder="Write your name here" x:Name="nameEntry"/>
+        <Button Text="Say Hello" Clicked="Button_Clicked" />
     </StackLayout>
 
 </ContentPage>
